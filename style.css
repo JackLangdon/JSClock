@@ -4,6 +4,7 @@ html {
   background-size: cover;
   background-position: center;
   width: 100vw;
+  color: white;
 }
 
 body {
@@ -85,4 +86,33 @@ body {
   transform: translateY(-4px);
   transform: rotate(90deg);
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+span {
+  font-size: 3rem;
+  position: absolute;
+}
+
+.twelve {
+  margin-left: 50%;
+  padding-top: 5px;
+  transform: translateX(-50%);
+}
+
+.six {
+  margin-left: 50%;
+  margin-top: 88%;
+  transform: translateX(-50%);
+}
+
+.three {
+  margin-left: 88%;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.nine {
+  margin-top: 50%;
+  transform: translateY(-50%);
+  padding-left: 10px;
 }
